@@ -7,8 +7,8 @@
          alt="Platform">
     <img src="https://img.shields.io/badge/language-swift-orange.svg"
          alt="Language: Swift">
-    <a href="https://cocoapods.org/pods/FileKit">
-        <img src="https://img.shields.io/cocoapods/v/FileKit.svg"
+    <a href="https://cocoapods.org/pods/Dschee-FileKit">
+        <img src="https://img.shields.io/cocoapods/v/Dschee-FileKit.svg"
              alt="CocoaPods">
     </a>
     <a href="https://github.com/Carthage/Carthage">
@@ -41,6 +41,8 @@ FileKit is a Swift framework that allows for simple and expressive file manageme
 Development happens in the
 [`develop`](https://github.com/nvzqz/FileKit/tree/develop) branch.
 
+*Please note that **this fork was created** to make a new release (>=2.1) before version 3.0.0 of the original repository was finished, so we can use some of the important fixes that the original poster didn't want to / have time to release earlier. See [this issue](https://github.com/nvzqz/FileKit/issues/19) for more details.*
+
 ## Installation
 
 ### Compatibility
@@ -59,7 +61,7 @@ to learn more.
     ```ruby
     use_frameworks!
 
-    pod 'FileKit', '~> 2.0.0'
+    pod 'Dschee-FileKit', '~> 2.1.1'
     ```
 
 2. Run `pod install` and open the `.xcworkspace` file to launch Xcode.
@@ -77,7 +79,7 @@ manager for Objective-C and Swift.
 1. Add the project to your [Cartfile](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile).
 
     ```
-    github "nvzqz/FileKit"
+    github "Dschee/FileKit"
     ```
 
 2. Run `carthage update` and follow [the additional steps](https://github.com/Carthage/Carthage#getting-started)
