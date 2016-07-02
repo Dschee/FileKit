@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17217D561CDCD13700723D11 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D551CDCD13700723D11 /* RelativePathType.swift */; };
+		17217D571CDCD1BD00723D11 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D551CDCD13700723D11 /* RelativePathType.swift */; };
+		17217D581CDCD1C300723D11 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D551CDCD13700723D11 /* RelativePathType.swift */; };
+		17217D591CDCD1C900723D11 /* RelativePathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D551CDCD13700723D11 /* RelativePathType.swift */; };
+		17217D5E1CDCD74000723D11 /* DispatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D5C1CDCD74000723D11 /* DispatchEvent.swift */; };
+		17217D5F1CDCD74000723D11 /* DispatchWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D5D1CDCD74000723D11 /* DispatchWatcher.swift */; };
+		17217D601CDCD79C00723D11 /* DispatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D5C1CDCD74000723D11 /* DispatchEvent.swift */; };
+		17217D611CDCD79C00723D11 /* DispatchWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D5D1CDCD74000723D11 /* DispatchWatcher.swift */; };
+		17217D621CDCD90B00723D11 /* DispatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D5C1CDCD74000723D11 /* DispatchEvent.swift */; };
+		17217D631CDCD90B00723D11 /* DispatchWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D5D1CDCD74000723D11 /* DispatchWatcher.swift */; };
+		17217D641CDCD91200723D11 /* DispatchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D5C1CDCD74000723D11 /* DispatchEvent.swift */; };
+		17217D651CDCD91200723D11 /* DispatchWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17217D5D1CDCD74000723D11 /* DispatchWatcher.swift */; };
+		520E0E301C110CA900BAEA99 /* Process+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E0E2F1C110CA900BAEA99 /* Process+FileKit.swift */; };
+		520E0E311C110CA900BAEA99 /* Process+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E0E2F1C110CA900BAEA99 /* Process+FileKit.swift */; };
+		520E0E321C110CA900BAEA99 /* Process+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E0E2F1C110CA900BAEA99 /* Process+FileKit.swift */; };
+		520E0E331C110CA900BAEA99 /* Process+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E0E2F1C110CA900BAEA99 /* Process+FileKit.swift */; };
 		52255DCB1C042D6E00AC1DA5 /* FilePermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52255DCA1C042D6E00AC1DA5 /* FilePermissions.swift */; };
 		52255DCC1C042D6E00AC1DA5 /* FilePermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52255DCA1C042D6E00AC1DA5 /* FilePermissions.swift */; };
 		52255DCD1C042D6E00AC1DA5 /* FilePermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52255DCA1C042D6E00AC1DA5 /* FilePermissions.swift */; };
@@ -96,7 +112,10 @@
 		52B938CC1BF402ED001B7AEB /* ImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B938C81BF402ED001B7AEB /* ImageFile.swift */; };
 		52BF6BB11B99322000F07E13 /* FileKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF6BB01B99322000F07E13 /* FileKitError.swift */; };
 		52BF6BB21B99322000F07E13 /* FileKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF6BB01B99322000F07E13 /* FileKitError.swift */; };
+		82F4F2BD1CA95480002C8393 /* FileSystemWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F4F2BC1CA95480002C8393 /* FileSystemWatcher.swift */; };
+		82F4F2C01CA956F2002C8393 /* FileSystemEventStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F4F2BF1CA956F2002C8393 /* FileSystemEventStream.swift */; };
 		C404F01E1BC7CA7200EF9ED9 /* Date+FileKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C404F01D1BC7CA7200EF9ED9 /* Date+FileKit.swift */; };
+		C4F7D01F1C08C0DA00EF359B /* FileSystemEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F7D01E1C08C0DA00EF359B /* FileSystemEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,11 +129,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17217D551CDCD13700723D11 /* RelativePathType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativePathType.swift; sourceTree = "<group>"; };
+		17217D5C1CDCD74000723D11 /* DispatchEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchEvent.swift; sourceTree = "<group>"; };
+		17217D5D1CDCD74000723D11 /* DispatchWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchWatcher.swift; sourceTree = "<group>"; };
 		5204B7C31B968E8000AA473F /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		5204B7E51B96ADA100AA473F /* String+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+FileKit.swift"; sourceTree = "<group>"; };
 		5204B84B1B96B83800AA473F /* FileKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5204B84F1B96B83800AA473F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5204B8581B96B85E00AA473F /* FileKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		520E0E2F1C110CA900BAEA99 /* Process+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Process+FileKit.swift"; sourceTree = "<group>"; };
+		521FC3FB1CDEEC12006C9C3C /* FileKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FileKit.playground; sourceTree = "<group>"; };
+		521FC3FD1CDEFED6006C9C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521FC3FE1CDF0144006C9C3C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		52255DCA1C042D6E00AC1DA5 /* FilePermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePermissions.swift; sourceTree = "<group>"; };
 		523C33771B9A7EFC00AB70E4 /* TextFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFile.swift; sourceTree = "<group>"; };
 		523C337A1B9B68D600AB70E4 /* DictionaryFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryFile.swift; sourceTree = "<group>"; };
@@ -140,7 +165,11 @@
 		52B938B31BF3C3E5001B7AEB /* FileKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B938C81BF402ED001B7AEB /* ImageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFile.swift; sourceTree = "<group>"; };
 		52BF6BB01B99322000F07E13 /* FileKitError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileKitError.swift; sourceTree = "<group>"; };
+		82F4F2BB1CA94DEC002C8393 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		82F4F2BC1CA95480002C8393 /* FileSystemWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemWatcher.swift; sourceTree = "<group>"; };
+		82F4F2BF1CA956F2002C8393 /* FileSystemEventStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemEventStream.swift; sourceTree = "<group>"; };
 		C404F01D1BC7CA7200EF9ED9 /* Date+FileKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+FileKit.swift"; sourceTree = "<group>"; };
+		C4F7D01E1C08C0DA00EF359B /* FileSystemEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSystemEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,9 +215,13 @@
 		5204B7AC1B968B8600AA473F = {
 			isa = PBXGroup;
 			children = (
-				5204B7B81B968B8600AA473F /* FileKit */,
-				5263A9051B96BA3D00635A93 /* FileKitTests */,
+				5204B7B81B968B8600AA473F /* Sources */,
+				521FC3FC1CDEFED6006C9C3C /* Support */,
+				5263A9051B96BA3D00635A93 /* Tests */,
 				5204B7B71B968B8600AA473F /* Products */,
+				521FC3FB1CDEEC12006C9C3C /* FileKit.playground */,
+				521FC3FE1CDF0144006C9C3C /* Package.swift */,
+				82F4F2BB1CA94DEC002C8393 /* .swiftlint.yml */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,27 +237,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5204B7B81B968B8600AA473F /* FileKit */ = {
-			isa = PBXGroup;
-			children = (
-				5204B7E31B96AD2300AA473F /* Core */,
-				5204B7E41B96AD3400AA473F /* Extensions */,
-				5204B84F1B96B83800AA473F /* Info.plist */,
-			);
-			path = FileKit;
-			sourceTree = "<group>";
-		};
-		5204B7E31B96AD2300AA473F /* Core */ = {
+		5204B7B81B968B8600AA473F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				52A016E81C01565C0045A9C8 /* FileKit.swift */,
-				523C33A01B9B772A00AB70E4 /* File.swift */,
-				523C33771B9A7EFC00AB70E4 /* TextFile.swift */,
-				523C337A1B9B68D600AB70E4 /* DictionaryFile.swift */,
-				524D31561BC79067008B93D0 /* ArrayFile.swift */,
-				524D315A1BC79331008B93D0 /* DataFile.swift */,
-				52B938C81BF402ED001B7AEB /* ImageFile.swift */,
 				5204B7C31B968E8000AA473F /* Path.swift */,
+				17217D551CDCD13700723D11 /* RelativePathType.swift */,
 				52A016F11C0184CA0045A9C8 /* FileProtection.swift */,
 				52A017091C01D5400045A9C8 /* FileType.swift */,
 				52255DCA1C042D6E00AC1DA5 /* FilePermissions.swift */,
@@ -232,13 +250,35 @@
 				523C33981B9B764600AB70E4 /* DataType.swift */,
 				52BF6BB01B99322000F07E13 /* FileKitError.swift */,
 				523C33A61B9B894A00AB70E4 /* Operators.swift */,
+				52F3AFA71CDFB48600C2BBBD /* File Types */,
+				52F3AFA61CDFB46300C2BBBD /* Watching */,
+				52F3AFA51CDFB45100C2BBBD /* Extensions */,
 			);
-			path = Core;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		5204B7E41B96AD3400AA473F /* Extensions */ = {
+		521FC3FC1CDEFED6006C9C3C /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				521FC3FD1CDEFED6006C9C3C /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		5263A9051B96BA3D00635A93 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5263A9061B96BA3D00635A93 /* FileKitTests.swift */,
+				C404F01D1BC7CA7200EF9ED9 /* Date+FileKit.swift */,
+				5263A9081B96BA3D00635A93 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		52F3AFA51CDFB45100C2BBBD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				520E0E2F1C110CA900BAEA99 /* Process+FileKit.swift */,
 				5204B7E51B96ADA100AA473F /* String+FileKit.swift */,
 				52A0170F1C024D840045A9C8 /* NSString+FileKit.swift */,
 				52A016F51C01ACE50045A9C8 /* NSDictionary+FileKit.swift */,
@@ -247,25 +287,32 @@
 				52A017041C01AD6F0045A9C8 /* NSBundle+FileKit.swift */,
 				524D315E1BC7A02A008B93D0 /* Image+FileKit.swift */,
 			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		5263A9051B96BA3D00635A93 /* FileKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				5263A9061B96BA3D00635A93 /* FileKitTests.swift */,
-				C404F01F1BC7CD0500EF9ED9 /* Extensions */,
-				5263A9081B96BA3D00635A93 /* Info.plist */,
-			);
-			path = FileKitTests;
-			sourceTree = "<group>";
-		};
-		C404F01F1BC7CD0500EF9ED9 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				C404F01D1BC7CA7200EF9ED9 /* Date+FileKit.swift */,
-			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		52F3AFA61CDFB46300C2BBBD /* Watching */ = {
+			isa = PBXGroup;
+			children = (
+				C4F7D01E1C08C0DA00EF359B /* FileSystemEvent.swift */,
+				82F4F2BF1CA956F2002C8393 /* FileSystemEventStream.swift */,
+				82F4F2BC1CA95480002C8393 /* FileSystemWatcher.swift */,
+				17217D5C1CDCD74000723D11 /* DispatchEvent.swift */,
+				17217D5D1CDCD74000723D11 /* DispatchWatcher.swift */,
+			);
+			name = Watching;
+			sourceTree = "<group>";
+		};
+		52F3AFA71CDFB48600C2BBBD /* File Types */ = {
+			isa = PBXGroup;
+			children = (
+				523C33A01B9B772A00AB70E4 /* File.swift */,
+				523C33771B9A7EFC00AB70E4 /* TextFile.swift */,
+				523C337A1B9B68D600AB70E4 /* DictionaryFile.swift */,
+				524D31561BC79067008B93D0 /* ArrayFile.swift */,
+				524D315A1BC79331008B93D0 /* DataFile.swift */,
+				52B938C81BF402ED001B7AEB /* ImageFile.swift */,
+			);
+			name = "File Types";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +357,7 @@
 				5204B8471B96B83800AA473F /* Frameworks */,
 				5204B8481B96B83800AA473F /* Headers */,
 				5204B8491B96B83800AA473F /* Resources */,
+				52995ACA1C0D967100A1AD23 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -328,6 +376,7 @@
 				5204B8541B96B85E00AA473F /* Frameworks */,
 				5204B8551B96B85E00AA473F /* Headers */,
 				5204B8561B96B85E00AA473F /* Resources */,
+				52995ACB1C0D967700A1AD23 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -364,6 +413,7 @@
 				5276123E1BAEA3EE00503D0A /* Frameworks */,
 				5276123F1BAEA3EE00503D0A /* Headers */,
 				527612401BAEA3EE00503D0A /* Resources */,
+				52995ACC1C0D967D00A1AD23 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -382,6 +432,7 @@
 				52B938AF1BF3C3E5001B7AEB /* Frameworks */,
 				52B938B01BF3C3E5001B7AEB /* Headers */,
 				52B938B11BF3C3E5001B7AEB /* Resources */,
+				52995ACD1C0D968400A1AD23 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -478,31 +529,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52995ACA1C0D967100A1AD23 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		52995ACB1C0D967700A1AD23 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		52995ACC1C0D967D00A1AD23 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		52995ACD1C0D968400A1AD23 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5204B8461B96B83800AA473F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52A016E91C01565C0045A9C8 /* FileKit.swift in Sources */,
 				5263A8FE1B96B95000635A93 /* String+FileKit.swift in Sources */,
+				52A016E91C01565C0045A9C8 /* FileKit.swift in Sources */,
+				17217D561CDCD13700723D11 /* RelativePathType.swift in Sources */,
+				52A017101C024D840045A9C8 /* NSString+FileKit.swift in Sources */,
 				52A017051C01AD6F0045A9C8 /* NSBundle+FileKit.swift in Sources */,
-				52A016FB1C01AD1E0045A9C8 /* NSArray+FileKit.swift in Sources */,
-				524D315B1BC79331008B93D0 /* DataFile.swift in Sources */,
+				523C33991B9B764600AB70E4 /* DataType.swift in Sources */,
+				82F4F2BD1CA95480002C8393 /* FileSystemWatcher.swift in Sources */,
 				523C33A71B9B894A00AB70E4 /* Operators.swift in Sources */,
 				523C33781B9A7EFC00AB70E4 /* TextFile.swift in Sources */,
 				5263A8FC1B96B94D00635A93 /* Path.swift in Sources */,
+				82F4F2C01CA956F2002C8393 /* FileSystemEventStream.swift in Sources */,
 				52A016C41C013F3D0045A9C8 /* DirectoryEnumerator.swift in Sources */,
 				524D315F1BC7A02A008B93D0 /* Image+FileKit.swift in Sources */,
-				523C33991B9B764600AB70E4 /* DataType.swift in Sources */,
+				524D315B1BC79331008B93D0 /* DataFile.swift in Sources */,
+				520E0E301C110CA900BAEA99 /* Process+FileKit.swift in Sources */,
+				52A016FB1C01AD1E0045A9C8 /* NSArray+FileKit.swift in Sources */,
 				52BF6BB11B99322000F07E13 /* FileKitError.swift in Sources */,
-				52A017101C024D840045A9C8 /* NSString+FileKit.swift in Sources */,
 				52A017001C01AD4A0045A9C8 /* NSData+FileKit.swift in Sources */,
 				52A016F61C01ACE50045A9C8 /* NSDictionary+FileKit.swift in Sources */,
 				52B938C91BF402ED001B7AEB /* ImageFile.swift in Sources */,
+				17217D5E1CDCD74000723D11 /* DispatchEvent.swift in Sources */,
 				52255DCB1C042D6E00AC1DA5 /* FilePermissions.swift in Sources */,
+				C4F7D01F1C08C0DA00EF359B /* FileSystemEvent.swift in Sources */,
 				524D31571BC79067008B93D0 /* ArrayFile.swift in Sources */,
 				523C33A11B9B772A00AB70E4 /* File.swift in Sources */,
 				52A0170A1C01D5400045A9C8 /* FileType.swift in Sources */,
+				17217D5F1CDCD74000723D11 /* DispatchWatcher.swift in Sources */,
 				523C337B1B9B68D600AB70E4 /* DictionaryFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +628,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17217D601CDCD79C00723D11 /* DispatchEvent.swift in Sources */,
+				17217D611CDCD79C00723D11 /* DispatchWatcher.swift in Sources */,
+				17217D571CDCD1BD00723D11 /* RelativePathType.swift in Sources */,
 				52A016EA1C01565C0045A9C8 /* FileKit.swift in Sources */,
 				52A016FC1C01AD1E0045A9C8 /* NSArray+FileKit.swift in Sources */,
 				5263A8FF1B96B95100635A93 /* String+FileKit.swift in Sources */,
@@ -521,6 +641,7 @@
 				52A0170B1C01D5400045A9C8 /* FileType.swift in Sources */,
 				523C33A81B9B894A00AB70E4 /* Operators.swift in Sources */,
 				52A017111C024D840045A9C8 /* NSString+FileKit.swift in Sources */,
+				520E0E311C110CA900BAEA99 /* Process+FileKit.swift in Sources */,
 				523C33791B9A7EFC00AB70E4 /* TextFile.swift in Sources */,
 				52A017011C01AD4A0045A9C8 /* NSData+FileKit.swift in Sources */,
 				5263A8FD1B96B94D00635A93 /* Path.swift in Sources */,
@@ -549,6 +670,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17217D621CDCD90B00723D11 /* DispatchEvent.swift in Sources */,
+				17217D631CDCD90B00723D11 /* DispatchWatcher.swift in Sources */,
+				17217D581CDCD1C300723D11 /* RelativePathType.swift in Sources */,
 				52A016EB1C01565C0045A9C8 /* FileKit.swift in Sources */,
 				52A016FD1C01AD1E0045A9C8 /* NSArray+FileKit.swift in Sources */,
 				527612521BAEA45D00503D0A /* String+FileKit.swift in Sources */,
@@ -559,6 +683,7 @@
 				52A0170C1C01D5400045A9C8 /* FileType.swift in Sources */,
 				5276124D1BAEA43600503D0A /* DictionaryFile.swift in Sources */,
 				52A017121C024D840045A9C8 /* NSString+FileKit.swift in Sources */,
+				520E0E321C110CA900BAEA99 /* Process+FileKit.swift in Sources */,
 				5276124B1BAEA43600503D0A /* File.swift in Sources */,
 				52A017021C01AD4A0045A9C8 /* NSData+FileKit.swift in Sources */,
 				5276124C1BAEA43600503D0A /* TextFile.swift in Sources */,
@@ -578,27 +703,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17217D641CDCD91200723D11 /* DispatchEvent.swift in Sources */,
+				17217D651CDCD91200723D11 /* DispatchWatcher.swift in Sources */,
+				17217D591CDCD1C900723D11 /* RelativePathType.swift in Sources */,
+				52B938C51BF3C430001B7AEB /* String+FileKit.swift in Sources */,
 				52A016EC1C01565C0045A9C8 /* FileKit.swift in Sources */,
+				52A017131C024D840045A9C8 /* NSString+FileKit.swift in Sources */,
+				52A017081C01AD6F0045A9C8 /* NSBundle+FileKit.swift in Sources */,
 				52A016FE1C01AD1E0045A9C8 /* NSArray+FileKit.swift in Sources */,
+				52B938C21BF3C42A001B7AEB /* DataType.swift in Sources */,
 				52B938C41BF3C42A001B7AEB /* Operators.swift in Sources */,
 				52A016F41C0184CA0045A9C8 /* FileProtection.swift in Sources */,
+				52B938BD1BF3C42A001B7AEB /* TextFile.swift in Sources */,
+				52B938C11BF3C42A001B7AEB /* Path.swift in Sources */,
 				52A016F91C01ACE50045A9C8 /* NSDictionary+FileKit.swift in Sources */,
-				52B938C21BF3C42A001B7AEB /* DataType.swift in Sources */,
-				52A017081C01AD6F0045A9C8 /* NSBundle+FileKit.swift in Sources */,
 				52A0170D1C01D5400045A9C8 /* FileType.swift in Sources */,
 				52B938BE1BF3C42A001B7AEB /* DictionaryFile.swift in Sources */,
-				52A017131C024D840045A9C8 /* NSString+FileKit.swift in Sources */,
-				52B938C11BF3C42A001B7AEB /* Path.swift in Sources */,
-				52B938BC1BF3C42A001B7AEB /* File.swift in Sources */,
+				520E0E331C110CA900BAEA99 /* Process+FileKit.swift in Sources */,
 				52A017031C01AD4A0045A9C8 /* NSData+FileKit.swift in Sources */,
 				52A016C71C013F3D0045A9C8 /* DirectoryEnumerator.swift in Sources */,
 				52B938C71BF3C430001B7AEB /* Image+FileKit.swift in Sources */,
 				52B938C01BF3C42A001B7AEB /* DataFile.swift in Sources */,
-				52B938BD1BF3C42A001B7AEB /* TextFile.swift in Sources */,
-				52B938C51BF3C430001B7AEB /* String+FileKit.swift in Sources */,
 				52255DCE1C042D6E00AC1DA5 /* FilePermissions.swift in Sources */,
 				52B938CC1BF402ED001B7AEB /* ImageFile.swift in Sources */,
 				52B938C31BF3C42A001B7AEB /* FileKitError.swift in Sources */,
+				52B938BC1BF3C42A001B7AEB /* File.swift in Sources */,
 				52B938BF1BF3C42A001B7AEB /* ArrayFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,7 +842,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = FileKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaivazquez.$(PROJECT_NAME)";
@@ -731,7 +860,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = FileKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaivazquez.$(PROJECT_NAME)";
@@ -748,7 +877,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FileKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaivazquez.$(PROJECT_NAME)";
@@ -767,7 +896,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FileKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaivazquez.$(PROJECT_NAME)";
@@ -783,7 +912,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = FileKitTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaivazquez.FileKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -794,7 +923,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = FileKitTests/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikolaivazquez.FileKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -808,7 +937,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FileKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaivazquez.$(PROJECT_NAME)";
@@ -827,7 +956,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FileKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaivazquez.$(PROJECT_NAME)";
@@ -847,7 +976,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/FileKit/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaivazquez.$(PROJECT_NAME)";
@@ -866,7 +995,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/FileKit/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Support/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nikolaivazquez.$(PROJECT_NAME)";
