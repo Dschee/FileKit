@@ -41,7 +41,7 @@ FileKit is a Swift framework that allows for simple and expressive file manageme
 Development happens in the
 [`develop`](https://github.com/nvzqz/FileKit/tree/develop) branch.
 
-*Please note that **this fork was created** to make a new release (>=2.1) before version 3.0.0 of the original repository was finished, so we can use some of the important fixes that the original poster didn't want to / have time to release earlier. See [this issue](https://github.com/nvzqz/FileKit/issues/19) for more details.*
+_Please note that **this fork was created** to make a new release (>=2.1) before version 3.0.0 of the original repository was finished, so we can use some of the important fixes that the original poster didn't want to / have time to release earlier. See [this issue](https://github.com/nvzqz/FileKit/issues/19) for more details._
 
 ## Installation
 
