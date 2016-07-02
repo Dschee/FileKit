@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name                      = "Dschee-FileKit"
     s.module_name               = "FileKit"
-    s.version                   = "2.1.0"
+    s.version                   = "2.1.1"
     s.summary                   = "Simple and expressive file management in Swift."
     s.homepage                  = "https://github.com/Dschee/FileKit.git"
     s.license                   = { :type => "MIT", :file => "LICENSE.md" }
