@@ -1,3 +1,5 @@
+***This repository is a fork of the original project https://github.com/nvzqz/FileKit. It was created temporarily due to [this issue](https://github.com/nvzqz/FileKit/issues/19) and is now DEPRECATED as the issue was fixed in the original project (by releasing a new version). To switch back to it simply replace `pod 'Dschee-FileKit', '~> 2.1.1'` with `pod 'FileKit', '~> 3.0.0'` if you are using CocoaPods or `github "Dschee/FileKit"` with `github "nvzqz/FileKit"` if your are using Carthage.***
+
 <p align="center">
     <img src="https://github.com/nvzqz/FileKit/raw/assets/banner.png">
 </p>
